@@ -1,0 +1,10 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+@layer components {
+    .menu-item {
+        @apply p-5 inline-block border-b-4 border-black hover:hover:text-blue-300;
+    }
+}
